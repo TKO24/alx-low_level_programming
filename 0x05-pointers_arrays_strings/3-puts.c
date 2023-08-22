@@ -2,14 +2,14 @@
 
 /**
  * _puts - a function that prints a string, followed by a new line, to stdout.
- * @str: string to print
+ * @str: input
  */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
 	while (*str != '\0')
 	{
-		_putchar(str++);
+		_putchar(*str++);
 	}
 	_putchar('\n');
 }
